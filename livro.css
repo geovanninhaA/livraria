@@ -1,0 +1,143 @@
+/*DOCUMENTO CSS*/
+
+
+
+body{
+	margin:0;
+     padding:10px;
+     border:0;
+     font-family: sans-serif;
+ 	background-size: cover;
+ 	text-align: center;
+ 	background-color: black;
+
+}
+
+header {
+margin:0px ;
+background-color: black ;
+text-align: center;
+border-radius: 20px;
+padding-bottom: 100px;
+
+
+}
+
+header img{padding-bottom:15px;
+
+
+}
+
+
+header h1{
+color: whitesmoke;
+padding-top: 100px;
+}
+
+main {
+	margin:0;
+	padding:0;
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+
+.box{
+	width: 400px;
+	height:250px;
+	padding:0px;
+	text-align: center ;
+	color:black ;
+	margin:0 30px 40px 20px ;
+border-radius: 10px;
+ display: flex;
+ padding-top: 30px;
+ transition: slide;
+
+
+}
+
+.box:hover{box-shadow: 9px 9px 9px;
+background-color: a4a4a4 ;
+}
+
+ .box h2 {margin:10px 10px 10px 10px; 
+  padding: 0s;
+} 
+
+.box figure {width: 180px; 
+height: 220px;  
+margin: 0px 10px 0px 20px; 
+padding-top: 0px; 
+background-color: ;
+
+
+}
+.box p {
+	color: whitesmoke;
+	
+
+
+
+} 
+
+
+.box h1{height: 10px;
+
+}
+
+
+
+
+.box img{
+	border-radius: 0px;
+	 display: 0px 0px 0px  ;
+
+}
+.box h2{
+
+}
+ p { font-family: serif;
+font-size: 15;
+ }
+button{ height: 40px;
+width: 120px;
+
+
+}
+footer { 
+   background-color: #A9a9a9aa; 
+   height: 50px; 
+    padding-top: 30px; color: whitesmoke; 
+   text-align: center;
+   border-radius: black;
+
+
+}
+.box button:hover{background-color: lightgoldenrodyellow;
+border-radius: 10px;
+}
+
+main { 
+	 animation-duration: 3s;
+  animation-name: sliden;
+
+}
+
+@keyframes sliden {
+  from {
+    margin-left: 100%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+}   
+
